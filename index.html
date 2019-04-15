@@ -1,0 +1,1169 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>豆瓣电影前端页面模仿</title>
+        <link rel="stylesheet" type="text/css" href="movie.css">
+    </head>
+    <body>
+        <nav>
+            <!--顶部链接-->
+            <div id="top-bar">
+                <!--左侧链接-->
+                <ul class=" top-links nav">
+                    <li>
+                        <a href="#">
+                            豆瓣
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            读书
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            电影
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            音乐
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="#">
+                            同城
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            小组
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            阅读
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            FM
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            时间
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            豆品
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            更多
+                        </a>
+                    </li>
+                </ul>
+                <!--右侧链接-->
+                <ul class="nav top-links">
+                    <li>
+                        <a href="#">
+                            下载豆瓣客户端
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            登陆/注册
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div id="main-bar">
+                <!--电影导航栏-->
+                <div class="left">
+                    <!--第二栏-->
+                    <div id="second-bar">
+                        <!--图标-->
+                        <a href="#">
+                            豆瓣电影
+                        </a>
+
+                        <!--搜索框-->
+                        <div  >
+                            <form class="shadow">
+                                <input  type="text" placeholder="搜索电影、电视剧、综艺、影人">
+                                <button>
+                                    <img id="search-icon" src="search-2-line.png">
+                                </button>
+                            </form>
+                        </div>
+
+                    </div>
+
+                    <div class="hr"></div>
+                    <!--第三栏-->
+                    <div id="third-bar">
+                        <ul class="nav normal-links">
+                            <li>
+                                <a href="#">
+                                    影讯&购票
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#">
+                                    选电影
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#">
+                                    电视剧
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#">
+                                    排行榜
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    分类
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    影评
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    2018年度榜单
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    2018书影音报告
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="right">
+                    <!--活动图标-->
+                    <a href="#">
+                        <img src="annual_2018.png">
+                    </a>
+                </div>
+            </div>
+
+        </nav>
+
+        <div class="container">
+            <div class="main-page">
+                <!--正在热映-->
+                <section id="">
+                    <header>
+                        <ul class="nav normal-links">
+                            <li>
+                                正在热映
+                            </li>
+                            <li>
+                                <a href="#">
+                                    全部正在热映>>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    即将上映>>
+                                </a>
+                            </li>
+                        </ul>
+                    </header>
+                    <div class="item-list">
+                        <div class="item-detail">
+                            <a class="item-cover" href="我不是药神 (">
+                                <img src="2018-1.webp">
+                            </a>
+                            <p class="item-name">
+                                <a href="https://movie.douban.com/subject/26752088/">
+                                    我不是药神
+                                </a>
+                            </p>
+                            <div class="item-score">
+                                9.0
+                            </div>
+                            <button class="book-button">选座购票</button>
+                        </div>
+
+                        <div class="item-detail">
+                            <a class="item-cover" href="https://movie.douban.com/subject/4920389">
+                                <img src="2018-2.webp">
+                            </a>
+                            <p class="item-name">
+                                <a href="https://movie.douban.com/subject/4920389">
+                                    头号玩家
+                                </a>
+                            </p>
+                            <div class="item-score">
+                                8.7
+                            </div>
+                            <button class="book-button">选座购票</button>
+                        </div>
+
+                        <div class="item-detail">
+                            <a class="item-cover" href="https://movie.douban.com/subject/30272798">
+                                <img src="2018-3.webp">
+                            </a>
+                            <p class="item-name">
+                                <a href="https://movie.douban.com/subject/30272798/">
+                                    我的三体-逻辑传
+                                </a>
+                            </p>
+                            <div class="item-score">
+                                9.6
+                            </div>
+                            <button class="book-button">选座购票</button>
+                        </div>
+
+                        <div class="item-detail">
+                            <a class="item-cover" href="https://movie.douban.com/subject/27624727">
+                                <img src="2018-4.webp">
+                            </a>
+                            <p class="item-name">
+                                <a href="https://movie.douban.com/subject/27624727">
+                                    我的三体-红岸往事
+                                </a>
+                            </p>
+                            <div class="item-score">
+                                6.3
+                            </div>
+                            <button class="book-button">选座购票</button>
+                        </div>
+
+                        <div class="item-detail">
+                            <a class="item-cover" href="https://movie.douban.com/subject/26266893">
+                                <img src="earth.webp">
+                            </a>
+                            <p class="item-name">
+                                <a href="https://movie.douban.com/subject/26266893">
+                                    流浪地球
+                                </a>
+                            </p>
+                            <div class="item-score">
+                                8.0
+                            </div>
+                            <button class="book-button">选座购票</button>
+                        </div>
+                    </div>
+                </section>
+
+                <!--note-->
+                <section id="note">
+                    <a>
+                        <img src="note.jpg">
+                    </a>
+                </section>
+
+                <!--热门电影-->
+                <section>
+                    <header>
+                        <ul class="nav category-links">
+                            <li>
+                                最近热门电影
+                            </li>
+                            <li>
+                                <a href="#">
+                                    热门
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    最新
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    豆瓣高分
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    冷门佳片
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    华语
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    欧美
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    韩国
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    日本
+                                </a>
+                            </li>
+                            <li class="link-more">
+                                <a  href="#">
+                                    更多>>
+                                </a>
+                            </li>
+                        </ul>
+
+                    </header>
+                    <div class="row">
+                        <div class="item-list">
+                            <div class="item-detail">
+                                <a  href="https://movie.douban.com/subject/1889243/" class="item-cover">
+
+                                    <img src="no17.webp">
+                                </a>
+                                <p class="item-name">
+                                    <a href="https://movie.douban.com/subject/1889243/">
+                                        星际穿越
+                                    </a>
+
+                                    <span class="item-score">
+                                         9.2
+                                    </span>
+                                </p>
+
+                            </div>
+
+                            <div class="item-detail">
+                                <a class="item-cover" href="https://movie.douban.com/subject/3541415/?from=subject-page">
+                                    <img src="no9.webp">
+                                </a>
+                                <p class="item-name">
+                                    <a href="https://movie.douban.com/subject/3541415/?from=subject-page">
+                                        盗梦空间
+                                    </a>
+                                    <span class="item-score">
+                                         9.3
+                                    </span>
+                                </p>
+
+
+                            </div>
+
+                            <div class="item-detail">
+                                <a class="item-cover" href="https://movie.douban.com/subject/1780330/">
+                                    <img src=no71.webp>
+                                </a>
+                                <p class="item-name">
+                                    <a href="https://movie.douban.com/subject/1780330/">
+                                        致命魔术
+                                    </a>
+
+                                    <span class="item-score">
+                                         8.8
+                                    </span>
+                                </p>
+
+
+                            </div>
+
+                            <div class="item-detail">
+                                <a class="item-cover" href="https://movie.douban.com/subject/1304447/">
+                                    <img src="no145.webp">
+                                </a>
+                                <p class="item-name">
+                                    <a href="https://movie.douban.com/subject/1304447/">
+                                        记忆碎片
+                                    </a>
+                                    <span class="item-score">
+                                         8.6
+                                    </span>
+                                </p>
+
+
+                            </div>
+
+                            <div class="item-detail">
+                                <a class="item-cover" href="https://movie.douban.com/subject/1292226/">
+                                    <img src="no226.webp">
+                                </a>
+                                <p class="item-name">
+                                    <a href="https://movie.douban.com/subject/1292226/">
+                                        2001太空漫游
+                                    </a>
+                                    <span class="item-score">
+                                         8.7
+                                    </span>
+                                </p>
+
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="item-list">
+                            <div class="item-detail">
+                                <a class="item-cover" href="https://movie.douban.com/subject/1292052/">
+                                    <img src="no1.webp">
+                                </a>
+                                <p class="item-name">
+                                    <a href="https://movie.douban.com/subject/1292052/">
+                                        肖申克的救赎
+                                    </a>
+                                    <span class="item-score">
+                                         9.6
+                                    </span>
+                                </p>
+
+                            </div>
+
+                            <div class="item-detail">
+                                <a class="item-cover" href="https://movie.douban.com/subject/1292063/">
+                                    <img src="no5.webp">
+                                </a>
+                                <p class="item-name">
+                                    <a href="https://movie.douban.com/subject/1292063/">
+                                        美丽人生
+                                    </a>
+                                    <span class="item-score">
+                                         9.5
+                                    </span>
+                                </p>
+
+
+                            </div>
+
+                            <div class="item-detail">
+                                <a class="item-cover" href="https://movie.douban.com/subject/1291561/">
+                                    <img src="no7.webp">
+                                </a>
+                                <p class="item-name">
+                                    <a href="https://movie.douban.com/subject/1291561/">
+                                        千与千寻
+                                    </a>
+                                    <span class="item-score">
+                                         9.3
+                                    </span>
+                                </p>
+
+
+                            </div>
+
+                            <div class="item-detail">
+                                <a class="item-cover" href="https://movie.douban.com/subject/1291560/">
+                                    <img src="no18.webp">
+                                </a>
+                                <p class="item-name">
+                                    <a href="https://movie.douban.com/subject/1291560/">
+                                        龙猫
+                                    </a>
+                                    <span class="item-score">
+                                         9.2
+                                    </span>
+                                </p>
+
+
+                            </div>
+
+                            <div class="item-detail">
+                                <a class="item-cover" href="https://movie.douban.com/subject/5912992/">
+                                    <img src="no20.webp">
+                                </a>
+                                <p class="item-name">
+                                    <a href="https://movie.douban.com/subject/5912992/">
+                                        熔炉
+                                    </a>
+                                    <span class="item-score">
+                                         9.3
+                                    </span>
+                                </p>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+
+                <!--热门电视剧-->
+                <section>
+                    <header>
+                        <ul class="nav category-links">
+                            <li>
+                                最近热门电视剧
+                            </li>
+                            <li>
+                                <a href="#">
+                                    热门
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    国产剧
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    综艺
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    美剧
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    日剧
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    韩剧
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    日本动画
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    纪录片
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    更多>>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="nav category-links">
+
+                        </ul>
+                    </header>
+                    <div class="row">
+                        <div class="item-list">
+                            <div class="item-detail">
+                                <a class="item-cover" href="https://movie.douban.com/subject/21355794">
+                                    <img src="ji1.webp">
+                                </a>
+                                <p class="item-name">
+                                    <a href="https://movie.douban.com/subject/21355794">
+                                        企鹅群里有特务
+                                    </a>
+                                    <span class="item-score">
+                                         9.6
+                                    </span>
+                                </p>
+
+                            </div>
+
+                            <div class="item-detail">
+                                <a class="item-cover" href="https://movie.douban.com/subject/26815163/">
+                                    <img src="ji2.webp">
+                                </a>
+                                <p class="item-name">
+                                    <a href="https://movie.douban.com/subject/26815163">
+                                        人间世 第一季
+                                    </a>
+                                    <span class="item-score">
+                                         9.6
+                                    </span>
+                                </p>
+
+
+                            </div>
+
+                            <div class="item-detail">
+                                <a class="item-cover" href="https://movie.douban.com/subject/27140017">
+                                    <img src="ji3.webp">
+                                </a>
+                                <p class="item-name">
+                                    <a href="https://movie.douban.com/subject/27140017">
+                                        非自然死亡
+                                    </a>
+
+                                    <span class="item-score">
+                                         9.4
+                                    </span>
+                                </p>
+
+
+                            </div>
+
+                            <div class="item-detail">
+                                <a class="item-cover" href="https://movie.douban.com/subject/26979545/">
+                                    <img src="ji4.webp">
+                                </a>
+                                <p class="item-name">
+                                    <a href="https://movie.douban.com/subject/26979545/">
+                                        蓝色星球2
+                                    </a>
+                                    <span class="item-score">
+                                         9.8
+                                    </span>
+                                </p>
+
+
+                            </div>
+
+                            <div class="item-detail">
+                                <a class="item-cover" href="https://movie.douban.com/subject/5950117/">
+                                    <img src="ji5.webp">
+                                </a>
+                                <p class="item-name">
+                                    <a href="https://movie.douban.com/subject/5950117/">
+                                        人类星球
+                                    </a>
+                                    <span class="item-score">
+                                         9.7
+                                    </span>
+                                </p>
+
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="item-list">
+                            <div class="item-detail" >
+                                <a class="item-cover" href="https://movie.douban.com/subject/26339248">
+                                    <img src="ji6.webp">
+                                </a>
+                                <p class="item-name">
+                                    <a href="https://movie.douban.com/subject/26339248">
+                                        一拳超人
+                                    </a>
+                                    <span class="item-score">
+                                         9.3
+                                    </span>
+                                </p>
+
+                            </div>
+
+                            <div class="item-detail">
+                                <a class="item-cover" href="https://movie.douban.com/subject/26677934">
+                                    <img src="ji7.webp">
+                                </a>
+                                <p class="item-name">
+                                    <a href="https://movie.douban.com/subject/26677934">
+                                        灵能百分百
+                                    </a>
+                                    <span class="item-score">
+                                         9.3
+                                    </span>
+                                </p>
+
+
+                            </div>
+
+                            <div class="item-detail">
+                                <a class="item-cover">
+                                    <img src="ji8.webp">
+                                </a>
+                                <p class="item-name">
+                                    <a href="https://movie.douban.com/subject/3430169">
+                                        钢之炼金术师FA
+                                    </a>
+                                    <span class="item-score">
+                                         9.5
+                                    </span>
+                                </p>
+
+
+                            </div>
+
+                            <div class="item-detail">
+                                <a class="item-cover" href="https://movie.douban.com/subject/1800597/?from=subject-page">
+                                    <img src="ji9.webp">
+                                </a>
+                                <p class="item-name">
+                                    <a href="https://movie.douban.com/subject/1800597">
+                                        虫师
+                                    </a>
+                                    <span class="item-score">
+                                         9.4
+                                    </span>
+                                </p>
+
+                            </div>
+
+                            <div class="item-detail">
+                                <a class="item-cover" href="https://movie.douban.com/subject/6894811/">
+                                    <img src="ji10.webp">
+                                </a>
+                                <p class="item-name">
+                                    <a href="https://movie.douban.com/subject/6894811">
+                                        男子高中生的日常
+                                    </a>
+                                    <span class="item-score">
+                                         9.1
+                                    </span>
+                                </p>
+
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </section>
+
+                <!--热门推荐-->
+                <section class="note">
+                    <div class="note-cover">
+                        <a>
+                            <img src="gana.jpg">
+                        </a>
+                    </div>
+                    <div class="note-content">
+                        <a>
+                            <h4>
+                                新导演的奠基石和敲门砖
+                            </h4>
+                        </a>
+
+                        <p>
+                            短片如何参与戛纳电影节？
+                        </p>
+                    </div>
+                </section>
+
+                <!--影评-->
+                <section>
+                    <header>
+                        <ul class="nav normal-links">
+                            <li>
+                                最受欢迎的影评
+                            </li>
+
+                            <li>
+                                <a href="#">
+                                    更多热门影评>>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#">
+                                    新片影评>>
+                                </a>
+                            </li>
+                        </ul>
+                    </header>
+
+                    <div class="comment-container">
+                        <div class="comment-item">
+                            <div class="comment-cover">
+                                <a>
+                                    <img src="no17.webp">
+                                </a>
+                            </div>
+                            <div class="comment-info">
+                                <ul class="nav normal-links comment-title">
+                                    <li>
+                                        <a  href="https://movie.douban.com/review/7184428/">银河彼端，群星尽头</a>
+                                    </li>
+                                </ul>
+                                <div class="comment-detail">
+                                    <a class="comment-user">perceptor</a>
+                                    <span>评论</span>
+                                    <a class="comment-movie">星际穿越</a>
+                                </div>
+                                <p class="comment-content">
+                                    小时候居住的城市有着令人惊叹的重工业和灰黄色的天空，在夜晚，除了朦胧的月球，偶尔也只能一瞥天狼星和金星摇曳的身姿。第一次与银河的会面是在天文馆的投影穹幕里，外表奇异的投影仪冷静的转动，将无数光点铺满头顶。这固然比不上若干年后在海滨散步时与这条雄伟光带真身那...
+                                    <span class="normal-links">
+                                         <a href="https://movie.douban.com/review/7184428/">
+                                                (全文)
+                                         </a>
+                                    </span>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="comment-item">
+                            <div class="comment-cover">
+
+                                <a>
+                                    <img src="ymqm.webp">
+                                </a>
+                            </div>
+                            <div class="coment-info">
+                                <ul class="nav normal-links comment-title">
+                                    <li>
+                                        <a href="https://movie.douban.com/subject/3541415/reviews">Inception 情节逻辑完全解析</a>
+                                    </li>
+                                </ul>
+
+                                <div class="comment-detail">
+                                    <a class="comment-user">文艺复兴人</a>
+
+                                    <span>评论</span>
+                                    <a class="comment-movie">盗梦空间</a>
+                                </div>
+                                <p class="comment-content">
+                                    Inception 情节逻辑完全解析 （有不明白地方的进，没看过的别进） Inception 情节逻辑完全解析 （有不明白地方的进，没看过的别进） Inception就好象是玄幻小说，你必须接受它里面的无数天马行空的设定；但是它是最好的玄幻小说，因为在它的设定下情节无懈可击。所以...
+                                    <span class="normal-links">
+                                         <a href="https://movie.douban.com/subject/3541415/reviews">
+                                             (全文)
+                                         </a>
+                                    </span>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="comment-item">
+                            <div class="comment-cover">
+                                <a>
+                                    <img src="no1.webp">
+                                </a>
+                            </div>
+
+                            <div class="coment-info">
+                                <ul class="nav normal-links comment-title">
+                                    <li>
+                                        <a href="https://movie.douban.com/subject/1292052/" >为何《肖申克的救赎》在IMDb和豆瓣都能排第一？</a>
+                                    </li>
+                                </ul>
+                                <div class="comment-detail">
+                                    <a class="comment-user">方枪枪 </a>
+                                    <span>评论</span>
+                                    <a class="comment-movie">肖申克的救赎</a>
+                                </div>
+                                <p class="comment-content">
+                                    时间会证明经典的价值，虽然在某些时刻会被误判和忽视。 用上面这句话来描述电影《肖申克的救赎》丝毫不会让人觉得会有任何夸张和吹捧的意味，因为这部电影在后来多年牢牢占据IMDB和豆瓣电影榜单第一名的位置足以说明一切。但就是这么一部经典的电影，却在其锋芒初露的时候被人...
+                                    <span class="normal-links">
+                                         <a href=" https://movie.douban.com/review/9259304/">
+                                             (全文)
+                                         </a>
+                                    </span>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="comment-item">
+                            <div class="comment-cover">
+                                <a>
+                                    <img src="no20.webp">
+                                </a>
+                            </div>
+
+                            <div class="coment-info">
+                                <ul class="nav normal-links comment-title">
+                                    <li>
+                                        <a href="https://movie.douban.com/subject/5912992">奋起反抗不是为了改变这个世界</a>
+                                    </li>
+                                </ul>
+                                <div class="comment-detail">
+                                    <a class="comment-user">Q。</a>
+                                    <span>评论</span>
+                                    <a class="comment-movie">熔炉</a>
+                                </div>
+                                <p class="comment-content">
+                                    “奋起反抗不是为了改变这个世界，而是为了不让这个世界改变我们。”电影以真实故事改编，又一部极其精彩反映社会阴暗的题材。每个人物都刻画的立体丰满，情感同样控制得当，无力感充斥全身。电影完结，愤怒、无奈、唏嘘、悲伤各种情感如同“雾津”的浓雾一般，久久未能飘散，始终萦绕心头。
+                                    <span class="normal-links">
+                                         <a href="https://movie.douban.com/subject/5912992/">
+                                             (全文)
+                                         </a>
+                                    </span>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="comment-item">
+                            <div class="comment-cover">
+                                <a>
+                                    <img src="2018-1.webp">
+                                </a>
+                            </div>
+
+                            <div class="coment-info">
+                                <ul class="nav normal-links comment-title">
+                                    <li>
+                                        <a href="https://movie.douban.com/subject/26752088">《我不是药神》原型人物陆勇，你所不知道的背后故事</a>
+                                    </li>
+                                </ul>
+                                <div class="comment-detail">
+                                    <a class="comment-user">RUNE</a>
+                                    <span>评论</span>
+                                    <a class="comment-movie">我不是药神</a>
+                                </div>
+                                <p class="comment-content">
+                                    陆勇， 一个平平无奇的名字，却在2013年的中下旬引起了轩然大波。 引起争议的不是其它，正是轰动一时的“ 假药案”。 5年后的今天，以他为原型的电影《我不是药神》上映，但在不少人看来，这部由真实事件改编的电影却成为了所谓《达拉斯买家俱乐部》的低配、甚至抄袭之作。 所..
+                                    <span class="normal-links">
+                                         <a href="https://movie.douban.com/review/9488150/">
+                                             (全文)
+                                         </a>
+                                    </span>
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+            </div>
+            <aside >
+                <div class="title-box links-list normal-links" id="first-box">
+                    <a href="https://blog.douban.com/douban/2015/12/18/3060/">
+                        豆瓣电影评分八问
+                    </a>
+                </div>
+
+                <div class="title-box" id="about">
+                    <p>
+                        豆瓣电影前端模仿 flex布局 纯html + css
+                    </p>
+                    <p>
+                        前端二组
+                    </p>
+                    <p>
+                        成员: 陈宏年 杨荣智 谢沐扬 舒桐 欧阳思睿 赵宇
+                    </p>
+                </div>
+
+                <!--电影活动-->
+                <div class="title-box" id="second-box">
+                    <ul class="links-list normal-links">
+                        <li>
+                            电影活动  · · · · · ·
+                        </li>
+                        <li>
+                            <a href="https://www.douban.com/note/713906237/">
+                                短片如何参与戛纳电影节？(有奖)
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="https://www.douban.com/note/713111550/">
+                                “全国艺联”怎样寻求内容和受众上的出圈？
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="https://www.douban.com/note/713111550/">
+                                专访“沙赞”——小身体大能量(福利)
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+
+                <!--口碑排行榜-->
+                <div class="top-list" id="top-list">
+                    <ul class="nav normal-links">
+                        <li class="title">
+                            一周口碑榜
+                        </li>
+                        <li>
+                            <a href="#top-list">
+                                更多榜单>>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="links-list normal-links">
+
+                        <li>
+                            <a href="#top-list">
+                                触不可及(美版)
+                            </a>
+                        </li>
+
+
+
+                        <li>
+
+                            <a href="#top-list">
+                                无主之作
+                            </a>
+
+                        </li>
+
+
+                        <li>
+
+                            <a href="#top-list">
+                                气球
+                            </a>
+
+                        </li>
+
+
+                        <li>
+
+                            <a href="#top-list">
+                                祈祷落幕时
+                            </a>
+                        </li>
+
+
+                        <li>
+
+                            <a href="#top-list">
+                                大浴场
+                            </a>
+                        </li>
+
+
+                        <li>
+
+                            <a href="#top-list">
+                                性别为本
+                            </a>
+                        </li>
+
+
+                        <li>
+
+                            <a href="#top-list">
+                                初三四班
+                            </a>
+                        </li>
+
+
+                        <li>
+
+                            <a href="#top-list">
+                                格鲁吉亚商人
+                            </a>
+
+                        </li>
+
+
+                        <li>
+
+                            <a href="#top-list">
+                                世界上最长的照片
+                            </a>
+
+                        </li>
+
+
+                        <li>
+
+                            <a href="#top-list">
+                                李理的白日梦
+                            </a>
+
+                        </li>
+
+                    </ul>
+
+                </div>
+
+                <!--热门豆列-->
+                <div class="hot-douban-list" id="hot-douban-list">
+                    <ul class="links-list normal-links">
+                        <li class="title">
+                            热门豆列
+                        </li>
+                        <li>
+                            <a href="#hot-douban-list">
+                                Mark Strong【？！】
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#hot-douban-list">
+                                【真实犯罪】—— 真人真事改编案件（世界版2）
+                            </a>
+                        </li>
+
+
+                    </ul>
+                </div>
+
+                <!--合作联系-->
+                <div class="concat">
+                    <ul class="nav links-list">
+                        <li class="title">
+                            合作联系:
+
+                        </li>
+                        <li>
+                            电影合作邮箱:
+                            <span>
+                                movie@douban.com
+                            </span>
+
+                        </li>
+                        <li>
+                            电视剧合作邮箱:
+                            <span>
+                                tv@douban.com
+                            </span>
+
+                        </li>
+                        <li>
+                            豆瓣影人PRO合作邮箱:
+                            <span>
+                                pro@douban.com
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+
+
+            </aside>
+
+
+        </div>
+
+        <footer>
+                <span>
+                    © 2005－2019 douban.com, all rights reserved 北京豆网科技有限公司
+                </span>
+                <ul class="nav normal-links">
+                    <li>
+                        <a>
+                            关于豆瓣
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            在豆瓣工作
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            联系我们
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            免责声明
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            帮助中心
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            移动应用
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            豆瓣广告
+                        </a>
+                    </li>
+                </ul>
+
+        </footer>
+    </body>
+</html>
